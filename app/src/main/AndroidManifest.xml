@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lucas.todrobot">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ModoLivre"
+            android:label="@string/modoLiv"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TemaModo" />
+        <activity
+            android:name=".About"
+            android:label="@string/sobre"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Save"
+            android:label="@string/save"
+            android:parentActivityName=".ModoLivre"
+            android:theme="@style/TemaModo" />
+        <activity android:name=".Open" />
+        <activity android:name=".Teste" />
+        <activity
+            android:name=".Compiler"
+            android:parentActivityName=".ModoLivre" />
+        <activity
+            android:name=".ModoMissao"
+            android:label="@string/missao"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".IDEModoMissao" />
+        <activity
+            android:name=".Descricao"
+            android:theme="@style/TemaModo" />
+        <activity android:name=".Congratulations" />
+        <activity
+            android:name=".Escolha"
+            android:label="@string/niveis"
+            android:parentActivityName=".ModoMissao" />
+        <activity
+            android:name=".Estatisticas"
+            android:label="Estatísticas"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TemaModo" />
+        <activity
+            android:name=".Socializar"
+            android:label="@string/title_activity_socializar"></activity>
+    </application>
+
+</manifest>

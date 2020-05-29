@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Talk to Tod</string>
+    <string name="socializar">Socializar</string>
+    <string name="modoLiv">Modo Livre</string>
+    <string name="missao">Modo Missão</string>
+    <string name="estatistica">Estatísticas</string>
+    <string name="sobre">Sobre</string>
+    <string name="caracteristicas">Aplicativo dedicado ao ensino de assuntos aplicados nas areas de TI. Desenvolvido por Lucas Freitas de Barros, Henrique Ferreira Barbosa e Walker Araujo Ataide objetivando a melhoria na abordagem adotada por professores da disciplina supracitada.</string>
+    <string name="title_activity_inicial">InicialActivity</string>
+    <string name="save">Salvar</string>
+    <string name="desc1">Estrutura Sequencial\nPosicione o robô na célula C1 do ambiente. Posicione o objeto na célula C3 do ambiente. Programe o robô para que ele possa pegar o objeto utilizando comandos simples.</string>
+    <string name="desc2">Estrutura Sequencial\nPosicione o robô na célula C1 do ambiente. Posicione o objeto na célula C3 do ambiente. Programe o robô para que ele possa pegar o objeto e soltá-lo na célula E5. Programe o robô para que ele possa pegar o objeto utilizando comandos simples.</string>
+    <string name="desc3">Estrutura de Decisão\nPosicione o robô na célula C1 do ambiente. Posicione o objeto na célula C3 do ambiente. Programe o robô para que ele possa pegar o objeto utilizando comandos de decisão (se/senao/senaose).</string>
+    <string name="desc4">Estrutura de Decisão\nPosicione o robô na célula C1 do ambiente. Posicione o objeto na célula C3 do ambiente. Programe o robô para que ele possa pegar o objeto e soltá-lo na célula E5. Programe o robô para que ele possa pegar o objeto utilizando comandos de decisão (se/senao/senaose).</string>
+    <string name="desc5">Estrutura de Repetição\nPosicione o robô na célula C1 do ambiente. Posicione o objeto em qualquer célula desta mesma coluna. Programe o robô para que ele possa pegar o objeto utilizando comando de repetição (enquanto).</string>
+    <string name="desc6">Estrutura de Repetição\nPosicione o robô na célula C1 do ambiente. Posicione o objeto em qualquer célula desta mesma coluna. Programe o robô para que ele possa pegar o objeto e leva-lo à célula E5 utilizando comandos de repetição (enquanto)</string>
+    <string name="parabens">Você concluiu as 6 missões de nosso aplicativo! Com isso, certificamos que sua lógica já te permite começar o aprendizado de uma linguagem de programação comercial... Não pare, mantenha-se autodidata e buscador do conhecimento! Bons estudos!</string>
+    <string name="niveis">Menu de Níveis</string>
+    <string name="n1">Nível 1</string>
+    <string name="n2">Nível 2</string>
+    <string name="n3">Nível 3</string>
+    <string name="n4">Nível 4</string>
+    <string name="n5">Nível 5</string>
+    <string name="n6">Nível 6</string>
+    <string name="title_activity_socializar">Socializar</string>
+</resources>
